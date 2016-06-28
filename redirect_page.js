@@ -33,7 +33,7 @@ var appsgeyserRedirect = {
         return false;
     },
     promtRedirectBox: function(){
-        if (confirm("Terima Kasih...kami menyediakan Aplikasi untuk web ini...Pelayanan adalah yang kami utamakan...silahkan download...")){
+        if (confirm("Terima Kasih. Kami menyediakan Aplikasi untuk web ini, Pelayanan adalah yang kami utamakan, silahkan download.")){
             window.location.href = this.url;
         }  
     },
